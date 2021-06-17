@@ -1,6 +1,6 @@
 {
-	"editor.tabSize": 2,
-	"editor.formatOnSave": false,
+  "editor.tabSize": 2,
+  "editor.formatOnSave": false,
   "editor.defaultFormatter": "SimonSiefke.prettier-vscode",
   "[javascript]": {
     "editor.formatOnSave": true,
@@ -9,8 +9,8 @@
   "[javascriptreact]": {
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
-},
-	"explorer.compactFolders": false,
-	"window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
-	"javascript.suggest.autoImports": true
+  },
+  "explorer.compactFolders": false,
+  "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
+  "javascript.suggest.autoImports": true
 }
