@@ -1,14 +1,14 @@
-import { Teste } from '../styles/styles'
+import Head from 'next/head'
+
+import { HelloWorld } from '../components/HelloWorld'
 
 export default function Home() {
-	return (
-		<div>
-			Hello world
-			<Teste>teste</Teste>
-			<h3></h3>
-			<h3></h3>
-			<h3></h3>
-			<h3></h3>
-		</div>
-	)
+  return (
+    <>
+      <Head>
+        <title>Boilerplate Next Styled</title>
+      </Head>
+      <HelloWorld />
+    </>
+  )
 }
