@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Boilerplate Next Styled</title>
+        <title>NEXT_BOILERPLATE</title>
       </Head>
       <HelloWorld />
     </>
