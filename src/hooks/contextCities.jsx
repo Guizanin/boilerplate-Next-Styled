@@ -1,123 +1,203 @@
 import { createContext } from 'react'
 
-const cities = [
+export const cities = [
   {
-    name: 'Aparecida'
+    params: {
+      city: 'Aparecida'
+    }
   },
   {
-    name: 'Arujá'
+    params: {
+      city: 'Arujá'
+    }
+  },
+
+  {
+    params: {
+      city: 'Atibaia'
+    }
   },
   {
-    name: 'Atibaia'
+    params: {
+      city: 'Cabreúva'
+    }
   },
   {
-    name: 'Cabreúva'
+    params: {
+      city: 'Campo limpo paulista'
+    }
   },
   {
-    name: 'Campo limpo paulista'
+    params: {
+      city: 'Canas'
+    }
+  },
+
+  {
+    params: {
+      city: 'Caçapava'
+    }
   },
   {
-    name: 'Canas'
+    params: {
+      city: 'Cachoeira Paulista'
+    }
   },
   {
-    name: 'Caçapava'
+    params: {
+      city: 'Caieiras'
+    }
   },
   {
-    name: 'Cachoeira Paulista'
+    params: {
+      city: 'Cajamar'
+    }
   },
   {
-    name: 'Caieiras'
+    params: {
+      city: 'Carapicuíba'
+    }
+  },
+
+  {
+    params: {
+      city: 'Cotia'
+    }
   },
   {
-    name: 'Cajamar'
+    params: {
+      city: 'Cruzeiro'
+    }
   },
   {
-    name: 'Carapicuíba'
+    params: {
+      city: 'Francisco Morato'
+    }
   },
   {
-    name: 'Cotia'
+    params: {
+      city: 'Franco Da Rocha'
+    }
   },
   {
-    name: 'Cruzeiro'
+    params: {
+      city: 'Ferraz De Vasconcelos'
+    }
   },
   {
-    name: 'Francisco Morato'
+    params: {
+      city: 'Guaratinguetá'
+    }
   },
   {
-    name: 'Franco Da Rocha'
+    params: {
+      city: 'Itatiba'
+    }
   },
   {
-    name: 'Ferraz De Vasconcelos'
+    params: {
+      city: 'Itupeva'
+    }
   },
   {
-    name: 'Guaratinguetá'
+    params: {
+      city: 'Itapevi'
+    }
   },
   {
-    name: 'Itatiba'
+    params: {
+      city: 'Itaquaquecetuba'
+    }
   },
   {
-    name: 'Itupeva'
+    params: {
+      city: 'Jandira'
+    }
   },
   {
-    name: 'Itapevi'
+    params: {
+      city: 'Jarinu'
+    }
   },
   {
-    name: 'Itaquaquecetuba'
+    params: {
+      city: 'Jundiaí'
+    }
   },
   {
-    name: 'Jandira'
+    params: {
+      city: 'Lavrinhas'
+    }
   },
   {
-    name: 'Jarinu'
+    params: {
+      city: 'Lorena'
+    }
   },
   {
-    name: 'Jundiaí'
+    params: {
+      city: 'Louveira'
+    }
   },
   {
-    name: 'Lavrinhas'
+    params: {
+      city: 'Mairinque'
+    }
   },
   {
-    name: 'Lorena'
+    params: {
+      city: 'Pindamonhangaba'
+    }
   },
   {
-    name: 'Louveira'
+    params: {
+      city: 'Pirapora Do Bom Jesus'
+    }
   },
   {
-    name: 'Mairinque'
+    params: {
+      city: 'Poá'
+    }
   },
   {
-    name: 'Pindamonhangaba'
+    params: {
+      city: 'Potim'
+    }
   },
   {
-    name: 'Pirapora Do Bom Jesus'
+    params: {
+      city: 'Ribeirão Pires'
+    }
   },
   {
-    name: 'Poá'
+    params: {
+      city: 'Santa Isabel'
+    }
   },
   {
-    name: 'Potim'
+    params: {
+      city: 'São José Dos Campos'
+    }
   },
   {
-    name: 'Ribeirão Pires'
+    params: {
+      city: 'São Roque'
+    }
   },
   {
-    name: 'Santa Isabel'
+    params: {
+      city: 'Vargem Grande Paulista'
+    }
+  },
+
+  {
+    params: {
+      city: 'Várzea paulista'
+    }
   },
   {
-    name: 'São José Dos Campos'
-  },
-  {
-    name: 'São Roque'
-  },
-  {
-    name: 'Vargem Grande Paulista'
-  },
-  {
-    name: 'Várzea paulista'
-  },
-  {
-    name: 'Vinhedo'
+    params: {
+      city: 'Vinhedo'
+    }
   }
 ]
-
-export default createContext({ cities })

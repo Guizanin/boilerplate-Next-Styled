@@ -17,6 +17,9 @@ export const GlobalStyle = createGlobalStyle`
   --white: #FFFFFF;
   --black: #000000;
 
+  --orange-150: #FF6E1C;
+  --blue-600: #003CB0;
+
   --main-font-family: '';
   --second-font-family: '';
 }
