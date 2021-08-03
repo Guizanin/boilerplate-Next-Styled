@@ -1,16 +1,18 @@
 {
   "editor.tabSize": 2,
   "editor.formatOnSave": false,
-  "editor.defaultFormatter": "SimonSiefke.prettier-vscode",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.preferences.importModuleSpecifier": "non-relative",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[javascript]": {
     "editor.formatOnSave": true,
-    "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascriptreact]": {
     "editor.formatOnSave": true,
-    "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "explorer.compactFolders": false,
-  "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
+  "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}",
   "javascript.suggest.autoImports": true
 }
